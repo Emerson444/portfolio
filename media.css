@@ -1,0 +1,31 @@
+@media (max-width: 480px){
+    body{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titulo{
+        width: 100%;
+        height: 25vw;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 25px;
+        
+    }
+    
+    .titulo .port{
+        font-size: 6vh;
+    }
+    
+    .titulo h1{
+        margin-top: 15px;
+        padding-left:2vh;
+        display: flex;
+        justify-content: center;
+        
+    }
+}
